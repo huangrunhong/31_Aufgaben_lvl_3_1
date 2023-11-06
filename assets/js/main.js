@@ -9,8 +9,7 @@ for (let i = 0; i < text.length; i++) {
       (j + 1) +
       " of " +
       Math.ceil(text.length / 100);
-    console.log(strings);
     textArr.push(strings);
-    console.log(textArr);
   }
+  console.log(textArr);
 }
